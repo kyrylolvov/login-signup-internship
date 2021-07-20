@@ -8,7 +8,6 @@ class LogIn extends React.Component {
   state = {
     email: "",
     password: "",
-    isLoggedIn: false,
   };
 
   handleChange = (e) => {
